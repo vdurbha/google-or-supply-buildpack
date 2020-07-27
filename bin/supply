@@ -8,7 +8,7 @@ DEPS_DIR=$3
 DEPS_IDX=$4
 
 BUILDPACK_CONFIG='name: GOOGLE_OR_SUPPLY_BUILDPACK
-config:'
+config:{}'
 
 cd $DEPS_DIR/$DEPS_IDX
 wget https://github.com/google/or-tools/releases/download/v7.4/or-tools_ubuntu-18.04_v7.4.7247.tar.gz
