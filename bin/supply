@@ -7,8 +7,8 @@ CACHE_DIR=$2
 DEPS_DIR=$3
 DEPS_IDX=$4
 
-cd $DEPS_DIR/$DEPS_IDX && \
-  wget https://github.com/google/or-tools/releases/download/v7.4/or-tools_ubuntu-18.04_v7.4.7247.tar.gz && \
-  tar -zxf /or-tools_ubuntu-18.04_v7.4.7247.tar.gz --strip=1
+cd $DEPS_DIR/$DEPS_IDX
+wget https://github.com/google/or-tools/releases/download/v7.4/or-tools_ubuntu-18.04_v7.4.7247.tar.gz
+tar -zxf /or-tools_ubuntu-18.04_v7.4.7247.tar.gz --strip=1
 
 
