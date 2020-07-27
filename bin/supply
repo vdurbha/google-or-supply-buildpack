@@ -9,7 +9,7 @@ DEPS_IDX=$4
 
 BUILDPACK_CONFIG='---
 name: "GOOGLE_OR_SUPPLY_BUILDPACK"
-config: ""
+config: ~
 '
 
 cd $DEPS_DIR/$DEPS_IDX
