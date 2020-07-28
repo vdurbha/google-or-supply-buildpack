@@ -10,7 +10,7 @@ DEPS_IDX=$4
 BUILDPACK_CONFIG='
 name: google-or-supply-buildpack
 config:
-  environment_variables: {GOOGLE_OR_VERSION: 7.4.7247}
+  - environment_variables: {GOOGLE_OR_VERSION: 7.4.7247}
 '
 
 cd $DEPS_DIR/$DEPS_IDX
