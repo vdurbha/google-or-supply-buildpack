@@ -8,7 +8,7 @@ DEPS_DIR=$3
 DEPS_IDX=$4
 
 BUILDPACK_CONFIG='name: google-or-supply-buildpack
-config:
+config: ~
 '
 
 cd $DEPS_DIR/$DEPS_IDX
